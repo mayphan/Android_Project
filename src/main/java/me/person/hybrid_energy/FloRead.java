@@ -19,6 +19,7 @@ public class FloRead extends AppCompatActivity {
 
        PumpFlow = (TextView) findViewById(R.id.tv4);
        TurbnInput = (TextView) findViewById(R.id.tv5);
+       FarmFlow = (TextView) findViewById(R.id.tv6);
 
         Bundle bndl = getIntent().getExtras();
         String data_1 = bndl.getString("PumpFlow");
